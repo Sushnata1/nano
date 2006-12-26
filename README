@@ -113,7 +113,8 @@ Files included in the binary package:
 Port Notes:
 
 ----- version 2.0.2-1 -----
-Initial release for Cygwin.
+Unofficial version bump.
+Last official package was 1.2.2-1 by Gareth Pearce.
 
 
 Cygwin port maintained by:
