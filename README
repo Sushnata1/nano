@@ -3,17 +3,17 @@ nano
 GNU nano - an enhanced clone of the UW Pico text editor.
 
 Runtime requirements:
-  cygwin-1.5.23-2
+  cygwin-1.5.24-2
   libintl8-0.15-1
   libncurses8-5.5-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.23-2
-  autoconf2.5-2.60-2
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.7-1
+  cygport-0.2.9-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -111,6 +111,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.0.3-1 -----
+Another unofficial version bump.
 
 ----- version 2.0.2-1 -----
 Unofficial version bump.
