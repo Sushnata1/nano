@@ -28,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack nano-2.0.5-X-src.tar.bz2
+  unpack nano-2.0.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./nano-2.0.5-X.cygport all
+  cygport ./nano-2.0.6-X.cygport all
 
 This will create:
-  /usr/src/nano-2.0.5-X-src.tar.bz2
-  /usr/src/nano-2.0.5-X.tar.bz2
+  /usr/src/nano-2.0.6-X-src.tar.bz2
+  /usr/src/nano-2.0.6-X.tar.bz2
 
 -------------------------------------------
 
@@ -45,17 +45,17 @@ Files included in the binary package:
   /etc/postinstall/nano.sh
   /usr/bin/nano.exe
   /usr/bin/rnano.exe
-  /usr/share/doc/Cygwin/nano-2.0.5.README
-  /usr/share/doc/nano-2.0.5/ABOUT-NLS
-  /usr/share/doc/nano-2.0.5/AUTHORS
-  /usr/share/doc/nano-2.0.5/BUGS
-  /usr/share/doc/nano-2.0.5/COPYING
-  /usr/share/doc/nano-2.0.5/ChangeLog
-  /usr/share/doc/nano-2.0.5/INSTALL
-  /usr/share/doc/nano-2.0.5/NEWS
-  /usr/share/doc/nano-2.0.5/README
-  /usr/share/doc/nano-2.0.5/THANKS
-  /usr/share/doc/nano-2.0.5/TODO
+  /usr/share/doc/Cygwin/nano-2.0.6.README
+  /usr/share/doc/nano-2.0.6/ABOUT-NLS
+  /usr/share/doc/nano-2.0.6/AUTHORS
+  /usr/share/doc/nano-2.0.6/BUGS
+  /usr/share/doc/nano-2.0.6/COPYING
+  /usr/share/doc/nano-2.0.6/ChangeLog
+  /usr/share/doc/nano-2.0.6/INSTALL
+  /usr/share/doc/nano-2.0.6/NEWS
+  /usr/share/doc/nano-2.0.6/README
+  /usr/share/doc/nano-2.0.6/THANKS
+  /usr/share/doc/nano-2.0.6/TODO
   /usr/share/info/nano.info.gz
   /usr/share/locale/bg/LC_MESSAGES/nano.mo
   /usr/share/locale/ca/LC_MESSAGES/nano.mo
@@ -112,7 +112,7 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.0.5-1 -----
+----- version 2.0.6-1 -----
 Version bump.
 
 ----- version 2.0.4-1 -----
