@@ -3,18 +3,17 @@ nano
 GNU nano - an enhanced clone of the UW Pico text editor.
 
 Runtime requirements:
-  cygwin-1.5.24-2
+  cygwin-1.5.25-11
   libintl8-0.15-1
   libncurses8-5.5-3
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.11-1
-  gawk-3.1.5-4
+  cygport-0.3.10-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   make-3.81-1
   sed-4.1.5-2
@@ -28,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack nano-2.0.6-X-src.tar.bz2
+  unpack nano-2.0.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./nano-2.0.6-X.cygport all
+  cygport ./nano-2.0.7-X.cygport all
 
 This will create:
-  /usr/src/nano-2.0.6-X-src.tar.bz2
-  /usr/src/nano-2.0.6-X.tar.bz2
+  /usr/src/nano-2.0.7-X-src.tar.bz2
+  /usr/src/nano-2.0.7-X.tar.bz2
 
 -------------------------------------------
 
@@ -45,17 +44,16 @@ Files included in the binary package:
   /etc/postinstall/nano.sh
   /usr/bin/nano.exe
   /usr/bin/rnano.exe
-  /usr/share/doc/Cygwin/nano-2.0.6.README
-  /usr/share/doc/nano-2.0.6/ABOUT-NLS
-  /usr/share/doc/nano-2.0.6/AUTHORS
-  /usr/share/doc/nano-2.0.6/BUGS
-  /usr/share/doc/nano-2.0.6/COPYING
-  /usr/share/doc/nano-2.0.6/ChangeLog
-  /usr/share/doc/nano-2.0.6/INSTALL
-  /usr/share/doc/nano-2.0.6/NEWS
-  /usr/share/doc/nano-2.0.6/README
-  /usr/share/doc/nano-2.0.6/THANKS
-  /usr/share/doc/nano-2.0.6/TODO
+  /usr/share/doc/nano-2.0.7/ABOUT-NLS
+  /usr/share/doc/nano-2.0.7/AUTHORS
+  /usr/share/doc/nano-2.0.7/BUGS
+  /usr/share/doc/nano-2.0.7/COPYING
+  /usr/share/doc/nano-2.0.7/ChangeLog
+  /usr/share/doc/nano-2.0.7/INSTALL
+  /usr/share/doc/nano-2.0.7/NEWS
+  /usr/share/doc/nano-2.0.7/README
+  /usr/share/doc/nano-2.0.7/THANKS
+  /usr/share/doc/nano-2.0.7/TODO
   /usr/share/info/nano.info.gz
   /usr/share/locale/bg/LC_MESSAGES/nano.mo
   /usr/share/locale/ca/LC_MESSAGES/nano.mo
@@ -111,6 +109,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.0.7-1 -----
+Version bump.
 
 ----- version 2.0.6-1 -----
 Version bump.
