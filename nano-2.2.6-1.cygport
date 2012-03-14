@@ -6,3 +6,11 @@ PATCH_URI="2.2.4-wchar.patch"
 DIFF_EXCLUDES="nano.spec"
 
 CYGCONF_ARGS="--without-slang"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	dodir /usr/share/doc/${PN}
+	mv ${D}/usr/share/{,doc}/nano/man-html
+}
