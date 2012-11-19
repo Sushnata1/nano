@@ -1,4 +1,0 @@
-category: Editors
-requires: libintl8 libncursesw10
-sdesc: "Enhanced clone of Pico editor"
-ldesc: "GNU Nano - and enhanced clone of the UW Pico text editor"
