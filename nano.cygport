@@ -1,5 +1,5 @@
 NAME="nano"
-VERSION=2.2.6
+VERSION=2.4.0
 RELEASE=1
 CATEGORY="Editors"
 SUMMARY="Enhanced clone of Pico editor"
@@ -10,16 +10,8 @@ column number, auto-indentation, feature toggles, internationalization support,
 and filename tab completion."
 HOMEPAGE="http://www.nano-editor.org/"
 SRC_URI="http://www.nano-editor.org/dist/v${PV[1]}.${PV[2]}/${P}.tar.gz"
-PATCH_URI="2.2.4-wchar.patch"
+PATCH_URI="2.4.0-time_t.patch"
 
 DIFF_EXCLUDES="nano.spec"
 
 CYGCONF_ARGS="--without-slang"
-
-src_install() {
-	cd ${B}
-	cyginstall
-
-	dodir /usr/share/doc/${PN}
-	mv ${D}/usr/share/{,doc}/nano/man-html
-}
