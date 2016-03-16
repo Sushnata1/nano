@@ -1,0 +1,46 @@
+--- origsrc/nano-2.5.3/doc/syntax/autoconf.nanorc	2016-01-10 00:53:05.000000000 -0600
++++ src/nano-2.5.3/doc/syntax/autoconf.nanorc	2016-03-16 11:38:47.964099800 -0500
+@@ -19,7 +19,7 @@ color red "\"[^"]*\""  "\'[^']*\'"
+ color green "`[^`]*`"
+ 
+ # Error lines:
+-color black "^\*\*\*.*"
++color brightblack "^\*\*\*.*"
+ 
+ # Brackets:
+ color magenta "\[|\]|\(|\)"
+--- origsrc/nano-2.5.3/doc/syntax/nanorc.nanorc	2016-02-25 15:17:44.000000000 -0600
++++ src/nano-2.5.3/doc/syntax/nanorc.nanorc	2016-03-16 13:26:42.817301700 -0500
+@@ -15,8 +15,31 @@ icolor brightgreen "^[[:space:]]*extends
+ icolor green "^[[:space:]]*((un)?(bind|set)|include|syntax|header|magic|linter|formatter|extendsyntax)\>"
+ 
+ # Colors
+-icolor yellow "^[[:space:]]*i?color[[:space:]]*(bright)?(white|black|red|blue|green|yellow|magenta|cyan)?(,(white|black|red|blue|green|yellow|magenta|cyan))?\>"
++icolor brightwhite "^[[:space:]]*i?color[[:space:]]*brightwhite\>"
++icolor white "^[[:space:]]*i?color[[:space:]]*white\>"
++icolor ,white "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,white\>"
++icolor brightblack "^[[:space:]]*i?color[[:space:]]*brightblack\>"
++icolor black "^[[:space:]]*i?color[[:space:]]*black\>"
++icolor ,black "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,black\>"
++icolor brightred "^[[:space:]]*i?color[[:space:]]*brightred\\>"
++icolor red "^[[:space:]]*i?color[[:space:]]*red\>"
++icolor ,red "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,red\>"
++icolor brightblue "^[[:space:]]*i?color[[:space:]]*brightblue\>"
++icolor blue "^[[:space:]]*i?color[[:space:]]*blue\>"
++icolor ,blue "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,blue\>"
++icolor brightgreen "^[[:space:]]*i?color[[:space:]]*brightgreen\>"
++icolor green "^[[:space:]]*i?color[[:space:]]*green\>"
++icolor ,green "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,green\>"
++icolor brightyellow "^[[:space:]]*i?color[[:space:]]*brightyellow\>"
++icolor yellow "^[[:space:]]*i?color[[:space:]]*yellow\>"
++icolor ,yellow "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,yellow\>"
++icolor brightmagenta "^[[:space:]]*i?color[[:space:]]*brightmagenta\>"
++icolor magenta "^[[:space:]]*i?color[[:space:]]*magenta\>"
++icolor ,magenta "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,magenta\>"
++icolor brightcyan "^[[:space:]]*i?color[[:space:]]*brightcyan\>"
++icolor cyan "^[[:space:]]*i?color[[:space:]]*cyan\>"
++icolor ,cyan "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,cyan\>"
+ icolor magenta "^[[:space:]]*i?color\>" "\<(start|end)="
+ 
+ # Strings
+ icolor brightmagenta ""(\\.|[^"])*""

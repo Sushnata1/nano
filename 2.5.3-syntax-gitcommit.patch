@@ -1,0 +1,10 @@
+--- origsrc/nano-2.5.3/doc/syntax/patch.nanorc	2015-04-04 12:09:34.000000000 -0500
++++ src/nano-2.5.3/doc/syntax/patch.nanorc	2016-03-16 11:52:57.788013700 -0500
+@@ -1,6 +1,6 @@
+ ## Here is an example for patch files.
+ 
+-syntax "patch" "\.(patch|diff|debdiff)$"
++syntax "patch" "\.(patch|diff|debdiff)$" "COMMIT_EDITMSG$"
+ magic "diff output text"
+ 
+ # Added lines.
