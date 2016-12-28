@@ -1,14 +1,3 @@
---- origsrc/nano-2.5.3/doc/syntax/autoconf.nanorc	2016-01-10 00:53:05.000000000 -0600
-+++ src/nano-2.5.3/doc/syntax/autoconf.nanorc	2016-03-16 11:38:47.964099800 -0500
-@@ -19,7 +19,7 @@ color red "\"[^"]*\""  "\'[^']*\'"
- color green "`[^`]*`"
- 
- # Error lines:
--color black "^\*\*\*.*"
-+color brightblack "^\*\*\*.*"
- 
- # Brackets:
- color magenta "\[|\]|\(|\)"
 --- origsrc/nano-2.5.3/doc/syntax/nanorc.nanorc	2016-02-25 15:17:44.000000000 -0600
 +++ src/nano-2.5.3/doc/syntax/nanorc.nanorc	2016-03-16 13:26:42.817301700 -0500
 @@ -15,8 +15,31 @@ icolor brightgreen "^[[:space:]]*extends
