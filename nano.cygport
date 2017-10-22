@@ -1,5 +1,5 @@
 NAME="nano"
-VERSION=2.8.4
+VERSION=2.8.7
 RELEASE=1
 CATEGORY="Editors"
 SUMMARY="Enhanced clone of Pico editor"
