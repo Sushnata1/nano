@@ -1,5 +1,5 @@
 NAME="nano"
-VERSION=2.8.7
+VERSION=2.9.7
 RELEASE=1
 CATEGORY="Editors"
 SUMMARY="Enhanced clone of Pico editor"
@@ -11,8 +11,8 @@ and filename tab completion."
 HOMEPAGE="http://www.nano-editor.org/"
 SRC_URI="http://www.nano-editor.org/dist/v${VERSION%.*}/nano-${VERSION}.tar.gz"
 PATCH_URI="
-	2.5.3-syntax-colors.patch
-	2.5.3-syntax-gitcommit.patch
+	2.9.7-syntax-colors.patch
+	2.9.7-syntax-gitcommit.patch
 	2.5.3-syntax-regex.patch
 "
 

@@ -1,10 +1,10 @@
---- origsrc/nano-2.5.3/doc/syntax/nanorc.nanorc	2016-02-25 15:17:44.000000000 -0600
-+++ src/nano-2.5.3/doc/syntax/nanorc.nanorc	2016-03-16 13:26:42.817301700 -0500
-@@ -15,8 +15,31 @@ icolor brightgreen "^[[:space:]]*extends
- icolor green "^[[:space:]]*((un)?(bind|set)|include|syntax|header|magic|linter|formatter|extendsyntax)\>"
+--- origsrc/nano-2.9.7/syntax/nanorc.nanorc	2018-05-10 06:18:29.000000000 -0500
++++ src/nano-2.9.7/syntax/nanorc.nanorc	2018-05-17 10:56:26.303279800 -0500
+@@ -20,7 +20,30 @@ icolor green "^[[:space:]]*((un)?(bind|s
+ color brightmagenta "".+"([[:space:]]|$)"
  
  # Colors
--icolor yellow "^[[:space:]]*i?color[[:space:]]*(bright)?(white|black|red|blue|green|yellow|magenta|cyan)?(,(white|black|red|blue|green|yellow|magenta|cyan))?\>"
+-icolor yellow "^[[:space:]]*i?color[[:space:]]*(bright)?(white|black|red|blue|green|yellow|magenta|cyan|normal)?(,(white|black|red|blue|green|yellow|magenta|cyan|normal))?\>"
 +icolor brightwhite "^[[:space:]]*i?color[[:space:]]*brightwhite\>"
 +icolor white "^[[:space:]]*i?color[[:space:]]*white\>"
 +icolor ,white "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,white\>"
@@ -31,5 +31,4 @@
 +icolor ,cyan "^[[:space:]]*i?color[[:space:]]*[[:alpha:]]*,cyan\>"
  icolor magenta "^[[:space:]]*i?color\>" "\<(start|end)="
  
- # Strings
- icolor brightmagenta ""(\\.|[^"])*""
+ # Comments
